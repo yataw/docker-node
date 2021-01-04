@@ -27,8 +27,7 @@ const responseFile = (response, fileName) => {
 
 
 app.get('/', async (req, res) => {
-    const fileName = 'example.mp4' // or any file format
-    responseFile(res, fileName);
+    res.send('Здесь скоро будет новый ORMAS ☺️')
 });
 app.listen(port);
 
